@@ -57,3 +57,31 @@ netsh advfirewall firewall delete rule name="WSL <sua_porta_para_redirecionar>"
 ```
 
 * **Importante:** Substitua `<sua_porta_para_redirecionar>` para o valor definido na adição da regra (Se foi 8080, então `<sua_porta_para_redirecionar>` deverá ser 8080).
+
+## TESTES
+
+### VERIFICAR IP DA REDE
+
+Verifique qual é o IP da sua rede:
+```cmd
+ipconfig
+```
+
+Seu IP será algo como:
+```
+Endereço IPv4. . . . . . . .  . . . . . . . : 192.168.1.123
+```
+
+### TESTE DE CONEXÃO
+
+O teste pode ser realizado tanto usando o comando `ping` ou `curl`
+```cmd
+ping 192.168.1.123
+
+curl http://192.168.1.123:<sua_porta_para_redirecionar>
+```
+
+Ou abrindo ele no navegador:
+```
+http://192.168.1.123:<sua_porta_para_redirecionar>
+```
