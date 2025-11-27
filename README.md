@@ -7,7 +7,7 @@
 wsl hostname -I
 ```
 
-Resultado será algo como: 123.45.678.90
+* **Resultado será algo como:** 123.45.678.90
 
 ## PORTPROXY (ENCAMINHAMENTO DE PORTAS)
 
