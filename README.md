@@ -1,5 +1,7 @@
 # ACESSANDO UMA DISTRIBUIÇÃO DO WSL 2 NA REDE LOCAL
 
+* **Importante:** Esses comandos devem ser realizados usando a versão de administrador do PowerShell.
+
 ## PORTPROXY (ENCAMINHAMENTO DE PORTAS)
 
 ### LISTAR TODAS AS REGRAS
