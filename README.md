@@ -56,4 +56,4 @@ netsh advfirewall firewall add rule name="WSL <sua_porta_para_redirecionar>" dir
 netsh advfirewall firewall delete rule name="WSL <sua_porta_para_redirecionar>"
 ```
 
-* **Importante:** Substitua `<sua_porta_para_redirecionar>` para o valor definido na adição da regra (Se foi 8080, "<sua_porta_para_redirecionar>" deverá ser 8080) correto da sua configuração WSL.
+* **Importante:** Substitua `<sua_porta_para_redirecionar>` para o valor definido na adição da regra (Se foi 8080, então `<sua_porta_para_redirecionar>` deverá ser 8080) correto da sua configuração WSL.
